@@ -61,7 +61,6 @@ As most people know, LLMs usually give us hallucination responses, and RAG (Retr
 - For the second prompt: The response from Llama13b hallucinates all publications and authors, whereas the response from RAG pipeline provides real publication names. However, the third publication is not related to Computer Vision
 - For the third prompt: The response from Llama13b hallucinates all publications and authors, whereas the response from the RAG pipeline provides real publication names for the first two papers but hallucinates the third publication and the publication years for all publications|
 
-From the above, it can be concluded that RAG can address some hallucination problems, such as publication names in this case, but there is still room for improvement regarding author names and publication release dates, which are still hallucinated by the model
 
 ## Conclusion
 From the above , it can be concluded that RAG can address some hallucination problems, such as publication names in this case, but there is still room for improvement regarding author names and publication release dates, which are still hallucinated by the model
